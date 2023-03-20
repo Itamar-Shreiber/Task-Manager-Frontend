@@ -1,0 +1,25 @@
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.TodoList .addButton {
+    width: 200px;
+    /* height: 25px; */
+    border-radius: 25px;
+    background-color: rgba(107, 142, 224, 0.322);
+    font-size: 22px;
+    border: outset 2px;
+}
+
+.TodoList .addButton:hover {
+    width: 200px;
+    /* height: 25px; */
+    border-radius: 25px;
+    background-color: rgb(249, 249, 248);
+    font-size: 22px;
+    border: inset 2px;
+}

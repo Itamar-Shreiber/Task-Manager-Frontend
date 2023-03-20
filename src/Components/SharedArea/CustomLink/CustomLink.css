@@ -1,0 +1,39 @@
+.CustomLink {
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid rgba(25, 25, 26, 0.2);
+    border-radius: 150px;
+        padding: 10px;
+
+}
+
+.CustomLink:hover {
+    color: rgb(10, 50, 169);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: dashed;
+}
+.CustomLink .active {
+    color: rgb(10, 50, 169);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: dashed;
+        padding: 20px;
+
+}
+.Regular{
+    margin-bottom: 15px;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Regular:hover {
+    color: rgb(10, 50, 169);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: dashed;
+}
+

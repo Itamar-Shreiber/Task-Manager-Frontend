@@ -1,38 +1,52 @@
 .App {
-  text-align: center;
+    /* background-color: yellow; */
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100%;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App > .Header {
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 12 span;
+    grid-row: 1 span;
+    color: black;
+    border-bottom: 1px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App > .Menu {
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 2 span;
+    grid-row: 10 span;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App > .Main {
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 10 span;
+    grid-row: 10 span;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App > .Footer {
+    background: linear-gradient(
+        180deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 12 span;
+    grid-row: 1 span;
 }

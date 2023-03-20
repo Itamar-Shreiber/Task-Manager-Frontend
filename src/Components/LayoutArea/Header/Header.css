@@ -1,0 +1,27 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header>a {
+    text-decoration: none;
+    color: black;
+}
+.H1{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+margin-left: 400px;
+}
+.Auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+        margin-right: 20px;
+
+}
+

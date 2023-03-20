@@ -1,0 +1,27 @@
+.Menu {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 150px;
+    margin: 10px;
+}
+
+.Menu>a {
+    /* margin: 5px;
+    color: #25316D;
+    text-decoration: none;
+    border: 4px groove rgba(25, 25, 26, 0.8);
+    padding: 5px;
+border-radius: 150px; */
+}
+
+/* .Menu>a:hover {
+    margin: 5px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 900;
+} */

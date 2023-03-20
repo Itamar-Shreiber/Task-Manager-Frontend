@@ -1,0 +1,13 @@
+.AuthMenu {
+    font-size: 18px;
+    gap: 5px;
+}
+
+.AuthMenu>a {
+    color: black;
+    text-decoration: none;
+}
+.AuthMenu>a:active {
+    text-decoration: underline;
+    color: royalblue;
+}
