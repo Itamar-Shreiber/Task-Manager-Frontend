@@ -5,7 +5,9 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { RegisterModel } from "../../../Models/Login";
 import webApi from "../../../Services/LoginWebApi";
 import notify from "../../../Services/NotificationService";
+import { useNavigate } from "react-router-dom";
 function Register(): JSX.Element {
+    const navigate = useNavigate();
     const schema = yup.object().shape({
         email: yup
             .string()
@@ -32,6 +34,7 @@ function Register(): JSX.Element {
             .register(credentials)
             .then((res) => {
                 notify.success("Register successfully");
+                navigate("/login");
             })
             .catch((err) => notify.error(err));
     };
